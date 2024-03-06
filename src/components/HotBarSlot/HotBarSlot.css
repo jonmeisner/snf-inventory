@@ -1,0 +1,77 @@
+.hot-bar-slot {
+    position: relative;
+    height: 80px;
+    width: 80px;
+    background: rgba(31, 31, 31, 0.50);
+    box-shadow: 0px 0px 10.9px 4px rgba(0, 0, 0, 0.25) inset;
+}
+
+.hot-bar-slot:hover {
+    background: rgba(41, 41, 41, 0.5);
+    box-shadow: 0px 0px 10.9px 4px rgba(0, 0, 0, 0.25) inset;
+}
+
+.hot-bar-slot-box {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    height: 14px;
+    width: 14px;
+    background-color: var(--accentOrangeDark);
+    color: var(--accentOrange);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.hot-bar-slot-number {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+    /* margin-left: -2px; */
+}
+
+.hot-bar-slot-empty {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    /* border: 2px solid transparent; */
+    background: rgba(31, 31, 31, 0.50);
+    box-shadow: 0px 0px 10.9px 4px rgba(0, 0, 0, 0.25) inset;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hot-bar-slot[data-rarity="0"] {
+    border: 2px solid var(--normal);
+}
+
+.hot-bar-slot[data-rarity="1"] {
+    border: 2px solid var(--common);
+}
+
+.hot-bar-slot[data-rarity="2"] {
+    border: 2px solid var(--uncommon);
+}
+
+.hot-bar-slot[data-rarity="3"] {
+    border: 2px solid var(--rare);
+}
+
+.hot-bar-slot[data-rarity="4"] {
+    border: 2px solid var(--epic);
+}
+
+.hot-bar-slot[data-rarity="5"] {
+    border: 2px solid var(--legendary);
+}
+
+.hot-bar-slot[data-rarity="6"] {
+    border: 2px solid var(--mythic);
+}

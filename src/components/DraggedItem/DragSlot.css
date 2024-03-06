@@ -1,0 +1,17 @@
+.dragged-slot {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    /* background: rgba(31, 31, 31, 0.50); */
+    /* box-shadow: 0px 0px 10.9px 4px rgba(0, 0, 0, 0.25) inset; */
+    box-sizing: border-box;
+    cursor: pointer;
+    z-index: 5;
+    color: var(--text);
+}
+
+.dragged-body {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}

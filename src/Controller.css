@@ -1,0 +1,38 @@
+.backer {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0px;
+    align-items: center;
+    overflow: hidden;
+    background-color: rgba(46, 46, 46, 0.92);
+    box-sizing: border-box;
+    padding: 45px;
+}
+
+.box {
+    position: relative;
+    width: 600px;
+    height: 100%;
+    padding: 35px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.box2 {
+    position: relative;
+    width: 600px;
+    height: 100%;
+    padding: 35px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 95px;
+    flex-direction: column;
+    justify-content: center;
+}

@@ -1,0 +1,40 @@
+.exit-button-wrapper {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: space-evenly;
+    transition: all ease-in-out 100ms;
+    cursor: pointer;
+}
+
+.exit-button-wrapper:hover {
+    gap: 15px;
+}
+
+.exit-button-text {
+    color: white;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.icon-backer {
+    background-color: var(--accentOrangeDark);
+    height: 32px;
+    width: 32px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    color: var(--accentOrange);
+}

@@ -1,0 +1,123 @@
+/* .equipment-backer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+    color: white;
+    gap: 27px;
+    transform-origin: top middle;
+    transform: scale(1.2);
+} */
+
+/* @media only screen and (max-width: 1920px) { */
+.equipment-backer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+    /* align-items: center; */
+    color: white;
+    gap: 27px;
+    transform-origin: top middle;
+    transform: scale(1.0);
+}
+
+/* } */
+
+.equipment-header {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.equipment-header-icon-backer {
+    background-color: var(--accentOrangeDark);
+}
+
+.equipment-grid {
+    display: grid;
+    justify-content: flex-start;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.equipment-slot {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+}
+
+.equipment-slot-empty {
+    color: #606060;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.skillsets {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.skillsets-title {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.skill {
+    width: 100%;
+    /* border: solid 2px white;
+    box-sizing: border-box; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 25px;
+}
+
+.skill-header {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.skill-name {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.skill-icon {
+    height: 24px;
+    width: 24px;
+    color: var(--accentOrange)
+}
+
+.skill-rank {
+    display: flex;
+    gap: 3px;
+}
+
+.skill-box-empty {
+    width: 6px;
+    height: 21px;
+    flex-shrink: 0;
+    background: var(--accentOrangeDark);
+}
+
+.skill-box {
+    width: 6px;
+    height: 21px;
+    flex-shrink: 0;
+    background: var(--accentOrange);
+}

@@ -1,0 +1,33 @@
+.pockets-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 10px;
+    /* transform: scale(1.2); */
+}
+
+/* @media only screen and (max-width: 1920px) {
+    .pockets-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        gap: 10px;
+        transform: scale(1.0);
+    }
+} */
+
+.pockets-grid-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pockets-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 80px);
+    gap: 10px;
+}

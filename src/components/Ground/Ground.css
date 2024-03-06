@@ -1,0 +1,20 @@
+.ground-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 10px;
+}
+
+.ground-grid-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ground-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 80px);
+    gap: 10px;
+}
